@@ -2,7 +2,7 @@
   "expo": {
     "sdkVersion": "35.0.0",
     "icon": "./assets/nblogo.png",
-    "slug": "kitchensinkvuenative",
+    "slug": "vue-native-app",
     "loading": {
       "hideExponentText": true,
       "backgroundImage": "./assets/splashscreen.png"
@@ -26,11 +26,13 @@
       "barStyle": "light-content",
       "backgroundColor": "#334393"
     },
-    "name": "kitchenSink-vue-native",
+    "name": "VUE Native APP",
     "version": "0.1.0",
     "platforms": [
       "android",
       "ios"
-    ]
+    ],
+    "description": "",
+    "githubUrl": "https://github.com/ijagjeet/vue-native-app"
   }
 }

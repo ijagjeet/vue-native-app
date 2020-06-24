@@ -5,6 +5,7 @@
     "slug": "vue-native-app",
     "loading": {
       "hideExponentText": true,
+      "icon": "./assets/nblogo.png",
       "backgroundImage": "./assets/splashscreen.png"
     },
     "orientation": "portrait",
@@ -33,6 +34,13 @@
       "ios"
     ],
     "description": "",
-    "githubUrl": "https://github.com/ijagjeet/vue-native-app"
+    "githubUrl": "https://github.com/ijagjeet/vue-native-app",
+
+    "ios": {
+      "bundleIdentifier": "com.ijagjeet.vue-native-app"
+    },
+    "android": {
+      "package": "com.ijagjeet.vue-native-app"
+    }
   }
 }
